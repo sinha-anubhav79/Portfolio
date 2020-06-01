@@ -21,10 +21,10 @@
                 <nav role="navigation" class="navbar">
                     <ul>
                         <a href="#"><li>HOME</li></a>
-                        <a href="#"><li>ABOUT</li></a>
-                        <a href="#"><li>SKILLS</li></a>
-                        <a href="#"><li>PROJECTS</li></a>
-                        <a href="#"><li>CONTACT</li></a>
+                        <a href="#about"><li>ABOUT</li></a>
+                        <a href="#skills"><li>SKILLS</li></a>
+                        <a href="#projects"><li>PROJECTS</li></a>
+                        <a href="#contact"><li>CONTACT</li></a>
                     </ul>
                 </nav>
             </div>
@@ -36,26 +36,26 @@
     <!--MAIN SHOWCASE STARTS-->
     <section id="showcase">
         <div class="container">
+            <h1 id="short_text">HELLO!</h1>
             <img src="/images/showcase.jpg" alt="SHOWCASE">
-            <div class="container" id="short_text">
-                <h1>HELLO!</h1>
-            </div>
         </div>
     </section>
     <!--MAIN SHOWCASE ENDS-->
 
     <!--ABOUT INFO STARTS-->
     <section id="about">
-        <div class="container" id="about_box_1">
-            <h1>ABOUT ME</h1><hr>
+        <h1>ABOUT ME</h1><hr>
+        <div class="info_box">
+            <div class="container" id="about_box_1">
+            
                 <p>Hello everyone!<br> My name is Anubhav Sinha. Currently I
                 am an undergraduate student pursuing my Bachelor's degree 
                 in Information Technology.</p>
                 <p>I am a coding enthusiast and
-                really into the tech world. I love technology and have a keen interest in learning how things work on the internet. To push myself further in this field I joined IEEE, which is a technical club of my college. The club helped me learn more, and explore even beyond.</p><br>
-            <button>READ MORE</button>
-        </div>
-        <div class="container" id="about_box_2">
+                really into the tech world. I love technology and have a keen interest in learning how things work on the internet. To push myself further in this field I joined IEEE, which is a technical club of my college. The club helped me learn more, and explore even beyond.</p>
+                
+            </div>
+            <div class="container" id="about_box_2">
             <ul>
                 <li>
                     <ul>
@@ -82,26 +82,43 @@
                     </ul>
                 </li>
             </ul>
+            </div>
         </div>
+        <br><button><a href="#">READ MORE</a></button><br><br>
+        
     </section>
     <!--ABOUT INFO ENDS-->
 
     <!--PROJECTS SECTION STARTS-->
     <section id="projects">
         <div class="container">
-            <h1>MY PROJECTS</h1>
+            <h1>MY PROJECTS</h1><hr>
 
-            <div class="project_items">
-                items1
-            </div>
-            <div class="project_items">
-                items2
-            </div>
-            <div class="project_items">
-                items3
-            </div>
-            <div class="project_items">
-                items4
+            <div class="project_content">
+                <div class="project_items">
+                    <div class="project_media">
+                        <a href="https://sinha-anubhav79.github.io/myWebsite/">
+                            <img src="/images/project00.png" alt="My Portfolio website">
+                        </a>
+                    </div>
+                    <div class="project_jist">
+                        <h2>My First website</h2>
+                        <p>A website I made just for practice when I first explored the field of Web Development</p>
+                        <button><a href="https://sinha-anubhav79.github.io/myWebsite/">View Project</a></button>
+                    </div>
+                </div>
+                <div class="project_items">
+                    <div class="project_media">
+                        <a href="https://sinha-anubhav79.github.io/">
+                            <img src="/images/project01.png" alt="My Portfolio website">
+                        </a>
+                    </div>
+                    <div class="project_jist">
+                        <h2>My Portfolio website</h2>
+                        <p>A website made to provide professional information about me and present a showcase of my work</p>
+                        <button><a href="https://sinha-anubhav79.github.io/">View Project</a></button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -110,7 +127,7 @@
     <!--SKILLS SECTION STARTS-->
     <section id="skills">
         <div class="container">
-            <h1>MY SKILLS</h1>
+            <h1>MY SKILLS</h1><hr>
 
             <ul>
                 <li>item 1</li>
@@ -127,19 +144,45 @@
     <!--ADDITIONAL SKILLS SECTION STARTS-->
     <section id="add_skills">
         <div class="container">
-            <h1>ADDITIONAL SKILLS</h1>
+            <h1>ADDITIONAL SKILLS</h1><hr>
 
-            <div class="project_items">
-                items1
-            </div>
-            <div class="project_items">
-                items2
-            </div>
-            <div class="project_items">
-                items3
-            </div>
-            <div class="project_items">
-                items4
+            <div class="project_content">
+                <div class="project_items">
+                    <div class="project_media">
+                        <a href="https://www.youtube.com/channel/UCjcqwIunOK_eYLNNv7Cb0yw">
+                            <img src="/images/vid01.png" alt="My Portfolio website">
+                        </a>
+                    </div>
+                    <div class="project_jist">
+                        <h2>Video Editing</h2>
+                        <p>I was always fascinated about how simple shots are converted to interesting clips and hence I started learnning video editing</p>
+                        <button><a href="https://www.youtube.com/channel/UCjcqwIunOK_eYLNNv7Cb0yw">View Work</a></button>
+                    </div>
+                </div>
+                <div class="project_items">
+                    <div class="project_media">
+                        <a href="#">
+                            <img src="/images/vid02.gif" alt="My Portfolio website">
+                        </a>
+                    </div>
+                    <div class="project_jist">
+                        <h2>Photo editing</h2>
+                        <p>I always wanted to learn the magic of changing photos to the way I wish they looked. That's when I started learning photo editing</p>
+                        <button><a href="#">View Work</a></button>
+                    </div>
+                </div>
+                <div class="project_items">
+                    <div class="project_media">
+                        <a href="#">
+                            <img src="/images/vid03.png" alt="My Portfolio website">
+                        </a>
+                    </div>
+                    <div class="project_jist">
+                        <h2>Illustrations</h2>
+                        <p>As I hovered over the internet I came across this skill of drawing illustrations that fascinated me</p>
+                        <button><a href="#">View Workt</a></button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -147,7 +190,7 @@
 
     <!--CONTACT SECTION STARTS-->
     <section id="contact">
-        <h1>Contact</h1>
+        <h1>Contact</h1><hr>
         
         <div class="container">
             
