@@ -14,6 +14,7 @@ body::-webkit-scrollbar{
 }
 
 section{
+    width: 100%;
     min-width: 500px;
 }
 /*------------------------General Body------------------------*/
@@ -84,7 +85,7 @@ button:hover{
 
 /*------------------------navigation bar------------------------*/
 #main_header .navbar{
-    min-width: 430px;
+    /*min-width: 430px;*/
 }
 .navbar li{
     display: inline;
@@ -107,7 +108,28 @@ button:hover{
     color: black;
     background-color: #fff;
     text-shadow: none;
+} 
 
+.menu img{
+height: 50px;
+} 
+
+.menu{
+    display: none;
+}
+
+@media (max-width:600px) {
+    .navbar ul{
+        display: none;
+    }
+
+    .menu a:hover{
+        background: none;
+    }
+    .menu{
+        display: block;
+        padding-right: 20px;
+    }
 }
 /*------------------------navigation bar------------------------*/
 
@@ -121,12 +143,16 @@ button:hover{
     box-sizing: border-box;
 }
 
-#showcase img{
+/*#showcase img{
     min-width: 1920;
-    /*width: 100%;*/
+    //width: 100%;
     height: 100;
 }
-
+*/
+#showcase{
+    background-image: url("/images/showcase.jpg");
+    padding-top: 1080px;
+}
 #showcase #short_text{
     position: absolute;
     text-align: center;
@@ -261,11 +287,12 @@ button:hover{
 }
 
 .contact_col_1 img{
-    height: 35px;
+    height: 25px;
 }
 
 .contact_col_1 ul{
     list-style: none;
+    padding: 0;
 }
 .contact_col_1 li{
     display: flex;
