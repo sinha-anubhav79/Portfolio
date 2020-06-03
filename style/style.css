@@ -65,8 +65,11 @@ button:hover{
 /*------------------------main header------------------------*/
 #main_header .container{
     display: flex;
-    height: 100px;
+    height: 80px;
     justify-content: space-between;
+    background-color: #333;
+    padding-bottom: 0;
+    opacity: 0.9;
 }
 
 #main_header{
@@ -78,15 +81,13 @@ button:hover{
 .logo{
     position: relative;
     display: inline-block;
-    height: 100px;
+    height: 80px;
+    padding-bottom: 0;
 }
 /*------------------------main header------------------------*/
 
 
 /*------------------------navigation bar------------------------*/
-#main_header .navbar{
-    /*min-width: 430px;*/
-}
 .navbar li{
     display: inline;
     padding: 10px;
@@ -102,12 +103,17 @@ button:hover{
     text-decoration: none;
     padding: 10px;
     text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+    border-radius: 2px;
 }
 
 .navbar a:hover{
     color: black;
     background-color: #fff;
     text-shadow: none;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #333;
+    box-shadow: 2px 2px 8px #fff;
 } 
 
 .menu img{
@@ -153,6 +159,7 @@ height: 50px;
     background-image: url("/images/showcase.jpg");
     padding-top: 1080px;
 }
+
 #showcase #short_text{
     position: absolute;
     text-align: center;
@@ -164,6 +171,28 @@ height: 50px;
 }
 /*------------------------showcase------------------------*/
 
+/*------------------------showcase-pages------------------------*/
+#showcase-page .container{
+    height: 350px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#showcase-page img{
+    position: relative;
+    top: -150px;
+}
+
+#showcase-page #short_text_page{
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    text-shadow: 2px 2px 2px black;
+}
+/*------------------------showcase-pages------------------------*/
 
 /*------------------------About------------------------*/
 #about{
@@ -211,6 +240,25 @@ height: 50px;
 /*------------------------About------------------------*/
 
 
+/*------------------------Education------------------------*/
+#education h1{
+    margin-top: 0;
+    padding-top: 30px;
+}
+.institute_img{
+    width: 100px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+.institution{
+    display: flex;
+	align-items: center;
+	justify-content:center;
+}
+/*------------------------Education------------------------*/
+
+
 /*------------------------Projects------------------------*/
 #projects h1{
     padding-top: 20px;
@@ -226,6 +274,7 @@ height: 50px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     border: 5px solid black;
     margin: 0;
     width: 300px;
@@ -257,6 +306,23 @@ height: 50px;
     opacity: 0.5;
 }
 /*------------------------Projects------------------------*/
+
+
+/*------------------------Dashboards------------------------*/
+#sketches h1{
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+.dashboard .project_media{
+    border: 5px solid black;
+    line-height: 0;
+}
+
+.dashboard .project_items{
+    border: none;
+}
+/*------------------------Dashboards------------------------*/
 
 
 /*------------------------Skills------------------------*/
@@ -299,6 +365,10 @@ height: 50px;
     align-items: center;
 }
 
+.contact_col_1 a:hover{
+    color: blue;
+}
+
 .contact_col_2{
     flex: 1;
     align-self: start;
@@ -323,5 +393,6 @@ height: 50px;
     background-color: #333;
     color: #fff;
     text-align: center;
+    width: 100%;
 }
 /*------------------------Footer------------------------*/
