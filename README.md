@@ -6,12 +6,12 @@
 
 
 **MILESTONES ACHIEVED**
-* [x]ABOUT PAGE
-* [x]PROJECT PAGE
-* [x]SKILLS PAGE
-* [x]OPTIONAL MILESTONE 
+* [x] ABOUT PAGE
+* [x] PROJECT PAGE
+* [x] SKILLS PAGE
+* [x] OPTIONAL MILESTONE 
     * CONTACT PAGE
-    * TECHNICAL DESIGN SKILLS
+    * TECHNICAL-DESIGN SKILLS PAGE
     * Loading Animation
     * Responsive
 
@@ -40,7 +40,7 @@ The header always stays on the top which has the navbar and the logo. The logo i
 
 The separated pages also have some loading animations.
 
-![Project](./images/project00.gif)
+![Project](./images/project01.gif)
 
 **UNIQUE**
 
