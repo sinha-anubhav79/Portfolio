@@ -107,7 +107,7 @@ button:hover{
     border-radius: 2px;
 }
 
-.navbar a:hover{
+.navbar a:hover,a:active{
     color: black;
     background-color: #fff;
     text-shadow: none;
