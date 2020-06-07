@@ -114,6 +114,7 @@ button:hover{
     font-weight: bold;
     text-shadow: 1px 1px 2px #333;
     box-shadow: 2px 2px 8px #fff;
+    animation: appear 2s;
 } 
 
 /*------------------------dropdown------------------------*/
