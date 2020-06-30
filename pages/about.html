@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/animate.css">
     <title>About : Anubhav Sinha</title>
 </head>
 <body>
@@ -49,16 +50,16 @@
     <section id="showcase-page">
         <div class="container">
             <img src="/images/showcase.jpg" alt="SHOWCASE">
-            <h1 id="short_text_page">I'M &nbsp;ANUBHAV</h1>
+            <h1 id="short_text_page" class="wow animate__fadeIn animate__slower">I'M &nbsp;ANUBHAV</h1>
         </div>
     </section>
     <!--MAIN SHOWCASE ENDS-->
 
     <!--ABOUT INFO STARTS-->
     <section id="about">
-        <h1>ABOUT ME</h1><hr>
+        <h1 class="wow animate__bounceInUp">ABOUT ME</h1><hr>
         <div class="info_box">
-            <div class="container" id="about_box_1">
+            <div class="container wow animate__fadeInUp" id="about_box_1">
             
                 <p>Hello everyone!<br> My name is Anubhav Sinha. Currently I
                 am an undergraduate student pursuing my Bachelor's degree 
@@ -67,7 +68,7 @@
                 really into the tech world. I love technology and have a keen interest in learning how things work on the internet. To push myself further in this field I joined IEEE, which is a technical club of my college. The club helped me learn more, and explore even beyond.</p>
                 
             </div>
-            <div class="container" id="about_box_2">
+            <div class="container wow animate__fadeInUp" id="about_box_2">
             <ul>
                 <li>
                     <ul>
@@ -101,16 +102,13 @@
     <!--ABOUT INFO ENDS-->
 
 
-
-
-
     <!--EDUCATION SECTION STARTS-->
     <section id="education">
-        <h1>Education</h1><hr>
+        <h1 class="wow animate__bounceInUp">Education</h1><hr>
         <div class="container">
-            <p class="institution_right">Matriculation: Delhi Public School, Bokaro<img class="institute_img" src=".\..\images\school_10.png"></p>
-			<p class="institution_left"><img class="institute_img" src=".\..\images\school_10.png">Intermediate: Delhi Public School, Bokaro</p>
-			<p class="institution_right">B.Tech: Birla Insititute of Technology, Mesra, Ranchi<img class="institute_img" src=".\..\images\College.png"></p>
+            <p class="institution_right wow animate__fadeInLeft">Matriculation: Delhi Public School, Bokaro<img class="institute_img" src=".\..\images\school_10.png"></p>
+			<p class="institution_left wow animate__fadeInRight"><img class="institute_img" src=".\..\images\school_10.png">Intermediate: Delhi Public School, Bokaro</p>
+			<p class="institution_right wow animate__fadeInLeft">B.Tech: Birla Insititute of Technology, Mesra, Ranchi<img class="institute_img" src=".\..\images\College.png"></p>
         </div>
     </section>
     <!--EDUCATION SECTION ENDS-->
@@ -130,5 +128,9 @@
     </footer>
     <!--MAIN FOOTER ENDS-->
     <script src="/script/main.js"></script>
+    <script src="/script/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>

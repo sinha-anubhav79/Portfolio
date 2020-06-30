@@ -194,13 +194,13 @@ height: 50px;
 }
 
 #showcase .short_text:nth-child(1){
-    animation: appear 3s ease-in 0s 1 forwards, disappear 3s ease-out 3s 1 forwards;
     transform: translate(-50%,-150%);
+    animation-fill-mode: forwards;
 }
 
-.animated_header, .short_text:nth-child(2),.short_text:nth-child(3){
-    animation: appear 3s ease-in 6s 1 forwards ;
+.short_text:nth-child(2),.short_text:nth-child(3){
     opacity: 0;
+    animation-fill-mode: forwards;
 }
 
 #showcase .short_text:nth-child(3){
@@ -233,7 +233,6 @@ height: 50px;
     transform: translate(-50%, -50%);
     font-size: 50px;
     text-shadow: 2px 2px 2px black;
-    animation: appear 4s ease-in 0s 1 forwards;
 }
 /*------------------------showcase-pages------------------------*/
 
@@ -243,9 +242,6 @@ height: 50px;
     text-align: center;
 }
 
-#about h1{
-    animation: slideright 2s;
-}
 .info_box{
     display: flex;
     flex-wrap: wrap;
@@ -259,7 +255,6 @@ height: 50px;
     min-width: 430px;
 	padding: 10px;
     font-size: 30px;
-    animation: appear 3s;
 }
 
 #about_box_1 p{
@@ -278,7 +273,6 @@ height: 50px;
     position: relative;
     align-items: center;
     text-align: left;
-    animation: slideleft 2s;
 }
 
 #about_box_2 ul{
@@ -307,14 +301,6 @@ height: 50px;
     display: flex;
 	align-items: center;
 	justify-content:center;
-}
-
-.institution_right{
-    animation: slideright 2s;
-}
-
-.institution_left{
-    animation: slideleft 2s;
 }
 /*------------------------Education------------------------*/
 
@@ -382,10 +368,6 @@ height: 50px;
 .dashboard .project_items{
     border: none;
 }
-
-.dashboard h1{
-    animation: slideright 2s;
-}
 /*------------------------Dashboards------------------------*/
 
 
@@ -398,18 +380,15 @@ height: 50px;
     text-align: center;
 }
 
-#skills li{
+#skills li li{
     display: flex;
     flex-direction: column;
-    text-align: center;
-}
-
-#skills .base{
-    display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .base b{
+    text-align: center;
     font-size: 50px;
 }
 
@@ -489,26 +468,3 @@ height: 50px;
     min-width: 500px;
 }
 /*------------------------Footer------------------------*/
-
-
-/*------------------------Animations------------------------*/
-@keyframes disappear{
-    0%{opacity: 1;}
-    100% {opacity: 0;}
-}
-
-@keyframes appear{
-    0%{opacity: 0;}
-    100%{opacity: 1;}
-}
-
-@keyframes slideleft{
-    0%{transform: translate3d(100%,0,0);}
-    100%{transform: translate3d(0,0,0);}
-}
-
-@keyframes slideright{
-    0%{transform: translate3d(-100%,0,0);}
-    100%{transform: translate3d(0,0,0);}
-}
-/*------------------------Animations------------------------*/
