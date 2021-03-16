@@ -1,25 +1,27 @@
 # IEEE LEAD
 
+[Link to the Website](https://sinha-anubhav79.github.io/Portfolio/)
+
 **NAME :** ANUBHAV SINHA
 
 **GROUP NO.** 8
 
-
 **MILESTONES ACHIEVED**
-* [x] ABOUT PAGE
-* [x] PROJECT PAGE
-* [x] SKILLS PAGE
-* [x] OPTIONAL MILESTONE 
-    * CONTACT PAGE
-    * TECHNICAL-DESIGN SKILLS PAGE
-    * Loading Animation
-    * Responsive
 
+- [x] ABOUT PAGE
+- [x] PROJECT PAGE
+- [x] SKILLS PAGE
+- [x] OPTIONAL MILESTONE
+  - CONTACT PAGE
+  - TECHNICAL-DESIGN SKILLS PAGE
+  - Loading Animation
+  - Responsive
 
 **TECH STACK**
-* HTML
-* CSS
-* JavaScript
+
+- HTML
+- CSS
+- JavaScript
 
 **DESCRIPTION (About Project)**
 
@@ -31,7 +33,7 @@ The project section has my projects palced as flex-box cards, with an image/gif 
 
 The skills page is the most silent and simple feature which has a list of my technical skills.
 
-Below the skills page there is an additional skills page which has my technical designs showcased in flex-box cards. There are links that direct towards my 
+Below the skills page there is an additional skills page which has my technical designs showcased in flex-box cards. There are links that direct towards my
 showcased finished work in each skill- one being my YouTube channel and others being separate pages.
 
 The Last is contact page with all my profiles linked and a photo of me.
