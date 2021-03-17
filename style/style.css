@@ -179,7 +179,7 @@ height: 50px;
 }
 
 #showcase{
-    background-image: url("/images/showcase.jpg");
+    background-image: url("../images/showcase.jpg");
     padding-top: 1080px;
 }
 
